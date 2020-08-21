@@ -1,0 +1,40 @@
+Start test session: PDFTestsTestSuite
+
+Start test case: Download PDF, , Test collection: PDFTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I navigate to pdf url, 8/21/2020 12:49:04 PM
+Info: 8/21/2020 12:49:05 PM - Navigated to:https://www.sogeti.com/globalassets/global/downloads/testing/test-automation-brochure_2014-11-05_v07.pdf, as expected
+Execute test step: Then  I can download pdf, 8/21/2020 12:49:05 PM
+Info: 8/21/2020 12:49:41 PM - File: test-automation-brochure.*?.pdf exists., as expected
+
+Start test case: Verify PDF contains Text, , Test collection: PDFTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I navigate to pdf url, 8/21/2020 12:49:44 PM
+Info: 8/21/2020 12:49:45 PM - Navigated to:https://www.sogeti.com/globalassets/global/downloads/testing/test-automation-brochure_2014-11-05_v07.pdf, as expected
+Execute test step: When  I download pdf, 8/21/2020 12:49:45 PM
+Info: 8/21/2020 12:50:21 PM - File: test-automation-brochure.*?.pdf exists., as expected
+Execute test step: Then  I can verify pdf contains required text, 8/21/2020 12:50:21 PM
+Info: 8/21/2020 12:50:21 PM - Lookup value: Test Automation
+Full service d contains Expected Value Test Automation... , as expected
+
+Start test case: Verify PDF page count, , Test collection: PDFTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I navigate to pdf url, 8/21/2020 12:50:24 PM
+Info: 8/21/2020 12:50:25 PM - Navigated to:https://www.sogeti.com/globalassets/global/downloads/testing/test-automation-brochure_2014-11-05_v07.pdf, as expected
+Execute test step: When  I download pdf, 8/21/2020 12:50:25 PM
+Info: 8/21/2020 12:51:01 PM - File: test-automation-brochure.*?.pdf exists., as expected
+Execute test step: Then  I can verify pdf page count, 8/21/2020 12:51:01 PM
+Info: 8/21/2020 12:51:01 PM - Actual value: 6 matches Expected Value 6 , as expected
+
+Start test case: Verify PDF Text, , Test collection: PDFTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I navigate to pdf url, 8/21/2020 12:51:04 PM
+Info: 8/21/2020 12:51:05 PM - Navigated to:https://www.sogeti.com/globalassets/global/downloads/testing/test-automation-brochure_2014-11-05_v07.pdf, as expected
+Execute test step: When  I download pdf, 8/21/2020 12:51:05 PM
+Info: 8/21/2020 12:51:40 PM - File: test-automation-brochure.*?.pdf exists., as expected
+Execute test step: Then  I can read text from pdf, 8/21/2020 12:51:40 PM
+Warning: 8/21/2020 12:51:40 PM - This step has not been performed.

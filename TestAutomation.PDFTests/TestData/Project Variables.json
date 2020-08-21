@@ -1,0 +1,49 @@
+{
+  "Browser": "chrome",
+  //Environment: qa/ rc/ iat
+  "Environment": "qa",
+  "ExecuteRemotely": "No",
+  "EnableDefectLogging": false,
+
+  "UpdateAzureTests": false, // Mark true only when require to execute automated scripts on Azure DevOps.
+  "ProjectTeamName": "Risk.Analytics", // "CFT", "AS.Projects"
+  "AzureTestPlanId": "14816", // Replace with Test Plan Id
+  "AzureTestSuiteId": "38730", // Replace with Suite Id
+
+  // Environments
+  // QA
+  "ApplicationURLPDFTests": "https://www.sogeti.com/globalassets/global/downloads/testing/test-automation-brochure_2014-11-05_v07.pdf",
+
+  //RC
+  "ApplicationURLPDFTestsRC": "",
+
+  //IAT
+  "ApplicationURLPDFTestsIAT": "",
+
+  // Prod
+  "ApplicationURLPDFTestsPROD": "",
+
+  // Timeout
+  "DefaultTimeout": 30,
+
+  // API URLs
+  //QA - API
+  "ApiBaseUrlPDFTests": "",
+
+  //RC - API
+  "ApiBaseUrlPDFTestsRC": "",
+
+
+  //IAT - API
+  "ApiBaseUrlPDFTestsIAT": "",
+
+  //PROD - API
+  "ApiBaseUrlPDFTestsPROD": "",
+
+  //Auth URLs
+  "AuthURLPDFTests": "",
+
+  //API Resources
+  "ApiResourceUrl": ""
+
+}
