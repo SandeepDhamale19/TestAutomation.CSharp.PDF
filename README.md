@@ -1,8 +1,8 @@
-# Selenium-C#-PDF-Tests <img src="https://github.com/SandeepDhamale1905/SandeepDhamaleProfile/blob/master/Logos/pdf.png" alt="Selenium C# PDF" width="70" height="105">
-PDF Tests using Selenium, C# and Specflow
+# Selenium-C#-PDF-Tests <img src="https://github.com/SandeepDhamale1905/SandeepDhamaleProfile/blob/master/Logos/pdf.png" alt="Selenium C# PDF">
+    ▪ PDF Tests using Selenium, C# and Specflow
 
 ### Usage
-Install-Package Test.Automation.Framework -Version 1.0.0.5
+    ▪ Install-Package Test.Automation.Framework -Version 1.0.0.5
 
 ### Features
     ▪ Download PDF as file
@@ -18,6 +18,7 @@ Install-Package Test.Automation.Framework -Version 1.0.0.5
     ▪ Get PDF file page counts
  
     ▪ Delete PDF files
+
 
 ### Interesting stuff: Scenario execution [HTML Reports](https://github.com/SandeepDhamale19/Selenium-PDF-Tests/tree/master/TestAutomation.PDFTests/Results)
 ##### A. Test Suites: Summary [All passed]
