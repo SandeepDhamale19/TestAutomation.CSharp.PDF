@@ -6,7 +6,9 @@ Install-Package Test.Automation.Framework -Version 1.0.0.5
 
 ### Features
  ■ Download PDF as file
+ 
  ■ Download PDF as web page
+ 
  ■ Read PDF file from web
  ■ Read PDF file stored on hard disk
  ■ Verify text contents from PDF file
