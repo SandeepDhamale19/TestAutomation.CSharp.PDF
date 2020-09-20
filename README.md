@@ -1,4 +1,4 @@
-# Selenium-C#-PDF-Tests <img src="https://github.com/SandeepDhamale1905/SandeepDhamaleProfile/blob/master/Logos/pdf_small.png" alt="Selenium C# PDF">
+# Selenium-C#-PDF <img src="https://github.com/SandeepDhamale1905/SandeepDhamaleProfile/blob/master/Logos/pdf_small.png" alt="Selenium C# PDF">
     ▪ PDF Tests using Selenium, C# and Specflow
 
 ### Usage
